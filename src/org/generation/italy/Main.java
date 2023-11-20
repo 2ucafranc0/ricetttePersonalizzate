@@ -54,7 +54,7 @@ public class Main {
 		}
 		System.out.println("le calorie totali per la sua ricetta sono: "+ contatore);
 	
-		
+		System.out.println("finito");
 
 		       
 		

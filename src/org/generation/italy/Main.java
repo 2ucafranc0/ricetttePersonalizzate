@@ -19,7 +19,6 @@ public class Main {
 		listaIngredienti.put("Burro",7f);
 		listaIngredienti.put("Olio",9f);
 		listaIngredienti.put("Pasta",3.6f);
-		listaIngredienti.put("Burro",100f);
 		listaIngredienti.put("Macinato di vitello",1.4f);
 		listaIngredienti.put("Salmone",2.8f);
 		listaIngredienti.put("Latte",0.64f);

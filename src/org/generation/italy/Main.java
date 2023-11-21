@@ -15,6 +15,7 @@ public class Main {
 		Integer grammi;
 		float totaleCalorie;
 		float contatore=0f;
+		int a=0;
 		HashMap<String, Float> listaIngredienti = new HashMap<String, Float>();
 		listaIngredienti.put("Burro",7f);
 		listaIngredienti.put("Olio",9f);
@@ -44,8 +45,10 @@ public class Main {
 		       
 		       System.out.println("Vuoi inserire un altro proddotto?");
 		       risposta= sc.nextLine();
-		      }else  System.out.println("Prodotto non disponibile");
-		} while (risposta.equals("si"));
+		      }else  System.out.println("Prodotto non disponibile");{
+		      a=1;   
+		      }
+		} while (risposta.equals("si")||a==1);
 		
 		System.out.println("Gli ingrendììenti scelti sono: ");
 		for (int i=0;i<ingredientiScelti.size();i++)
